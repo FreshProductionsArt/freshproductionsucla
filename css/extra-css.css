@@ -6,3 +6,77 @@
 .announcement img {
   width: 100%;
 }
+
+/*===========================
+for carousel
+===========================*/
+#my-slider .carousel-inner {
+	height: 600px;
+
+}
+
+
+
+#my-slider {
+	background:#eee
+}
+
+.slider {
+	background:#eee
+
+}
+
+#my-slider .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%
+ 
+}
+
+#my-slider .carousel-inner h2 {
+  color: #fff;
+  text-transform:uppercase;
+  font-size:50px;
+  font-weight:800;
+}
+
+#my-slider .carousel-inner h2 span {
+  color: #1BBD36;
+}
+
+#my-slider .carousel-inner h2 span spani  {
+  color: #000;
+}
+
+#my-slider .carousel-inner p {
+  color: #ddd;
+  font-size:25px;
+}
+
+/* carousel font placement*/
+#my-slider .carousel-inner h2 {
+top: 0%;
+transform: translateY(-100%);
+bottom: initial;
+-webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+transform-style: preserve-3d;
+}
+
+
+.portfolio-item {
+        position: relative;
+        padding-bottom: 75%; /* 4:3 ratio*/
+        height: 0;
+        overflow: hidden;
+}
+
+.portfolio-item iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
