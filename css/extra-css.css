@@ -38,14 +38,14 @@ for carousel
 }
 
 #my-slider .carousel-inner h2 {
-  color: #fff;
+  color: #000;
   text-transform:uppercase;
   font-size:50px;
   font-weight:800;
 }
 
 #my-slider .carousel-inner h2 span {
-  color: #1BBD36;
+  color: #019959;
 }
 
 #my-slider .carousel-inner h2 span spani  {
