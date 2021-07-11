@@ -970,6 +970,9 @@
 .fa-gamepad:before {
   content: "\f11b";
 }
+.fa-discord:before {
+  content: "\f392"; 
+}
 .fa-keyboard-o:before {
   content: "\f11c";
 }
